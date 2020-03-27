@@ -1,20 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-}
-
-@keyframes load{
-    from {width: 0px;}
-    to {width: 60px;}
-}
-
-@keyframes out{
-    from {width: 0px;}
-    to {width: 60px;}
-}
-
-body{
     transition: all 0.5s;
+
 }
 
 .container{
@@ -23,13 +11,26 @@ body{
     /* background: red; */
     padding-top: 10px;
     padding-bottom: 10px;
-    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
 }
 
 header{
+    /* background-color: white; */
     border-top: 6px solid rgb(255,255,255);
+    /* opacity: 0.5; */
+    position: absolute;
+    width: 100%;
+    z-index: 1;
 }
-.icons{padding-top: 20px;}
+.icons{
+    margin-right: 40px;
+    padding-top: 20px;
+    position: absolute;
+    right: 0;
+}
+
+i{
+    color: white;
+}
 
 .loadList{
     background-color: rgb(219, 142, 53);
@@ -42,17 +43,7 @@ header{
 }
 
 #logo{
-    padding-top: 0px;
-    padding-left: 130px;
-    padding-right: 130px;
-}
-
-#logo img{
-    transition: all 0.5s;
-}
-
-#logo img:hover{
-    transform: scale(1.2);
+    width: 80px;
 }
 
 .menu{
@@ -63,30 +54,14 @@ header{
     padding-left: 70px;
 }
 
-.menuItem{
-    transition: all 0.5s;
-    cursor: pointer;
-}
-
-.menuItem:hover .loadList{
-    animation-name: load;
-    width: 60px;
-}
-
 .menu li{
     padding: 10px; 
-    font-family: Selena;
     padding-top: 20px;
-}
-.menu li img{width: 100px;}
 
-#moon{
-    position: relative;
-    left: 160px;
 }
 
-.purp{
-    background-color: rgb(224, 127, 224);
+.menu li p{
+    color: white;
 }
 
 .social{
@@ -98,7 +73,3 @@ header{
 }
 
 .social:hover{opacity: 0.5; transform: scale(1.1);}
-
-#title{
-    color: white;
-}
