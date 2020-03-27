@@ -3,6 +3,7 @@
     padding: 0;
     scroll-behavior: smooth;
     transition: all 0.3s;
+    font-family: Poppins;
 }
 
 @font-face{
@@ -44,24 +45,26 @@ a{
     margin-right: 100px;
 }
 
-.content{
-    /* background-color: red; */
-    margin: 40px 0px;
-    margin-right: 0px;
+.btn2{
+    background-color: rgb(37, 64, 95);
+    color: white;
+    margin-top: 30px;
 }
 
-.content li{
-    font-family: 'Inter', sans-serif;
-    font-size: 30px;
-    font-weight: lighter;
+button{
+    background-color: white;
+    border: 1px solid white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.content{
+    /* margin: 50% 0%; */
 }
 
 .content p{
-    /* background-color: blue; */
-    font-family: 'Inter', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: lighter;
-    line-height: 1.38889;
 }
 
 .contentParagraphLeft{
@@ -107,8 +110,9 @@ a{
 
 
 h1{
-    color: white;
+    color: black;
     font-size: 50px;
+    font-weight: normal;
     
 }
 
@@ -143,13 +147,7 @@ header{
     transform: scale(0.9);
 }
 
-.iconBox img:hover ~ p{
-    opacity: 1;
-}
 
-.iconBox p{
-    opacity: 0;
-}
 
 li{
     margin: 7px 0px;
@@ -226,11 +224,6 @@ main{
     background-position: 50% 50%;
 } 
 
-#titleHolder button{
-    background-color: white;
-    font-size: 20px;
-    padding: 20px;
-}
 ul li{
     font-size: 30px;
 }

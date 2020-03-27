@@ -1,0 +1,14 @@
+footer{
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 25px;
+}
+
+footer div{
+    display: block;
+}
+
+footer p, footer h3{
+    color: white;
+}
