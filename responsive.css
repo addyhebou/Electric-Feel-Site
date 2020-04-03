@@ -1,30 +1,88 @@
+/* MOBILE FORM*/
+
+
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 888px) {
     *{
-        background-color: pink;
+        /* background-color: pink; */
     }
+    #artistsAndWriters{
+        margin: 0;
+    }
+    
+    #artistsAndWriters .content{
+        margin: 0;
+        padding: 0;
+    }
+
+    #artistsAndWriters img{
+        width: 50%;
+    }
+
+
+    .bodyContainer p{
+        font-family: Poppins;
+        font-weight: lighter;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    header .container{
+        display: block;
+        text-align: center;
+    }
+    #logo{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+    .mobileLogo{
+        display: block;
+        text-align: center;
+        width: 20%;
+    }
+    .contentHolder{
+        display: block;
+        margin: 0;
+    }
+    #media .content{
+        margin: 0;
+        padding: 0;
+    }
+    
 } 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 768px) {
-    *{
-        background-color: orange;
-    }
+
+/* GO BACK TO NORMAL MODE AFTER THIS POINT */
+
+
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 889px) {
     *{
-        background-color: beige;
+        /* background-color: beige; */
     }
+    .mobileLogo{
+        display: none;
+    }
+}    
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 992px) {
     *{
-        background-color: lightgreen;
-    }}
+        /* background-color: lightgreen; */
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     *{
-        background-color: lightblue;
+        /* background-color: lightblue; */
     }
+}

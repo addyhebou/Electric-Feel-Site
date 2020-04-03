@@ -13,6 +13,7 @@
 <body>
     <header>
         <div class = "container">
+            <img class = "mobileLogo" src = "PICS/EL LOGO.jpg">
             <div class = "menu">
                 <li class = "menuItem">
                     <img id = "logo" src = "PICS/EL LOGO.jpg">
@@ -53,17 +54,18 @@
             <h2>Bold and daring with an array of superstar songwriters and producers such as Post Malone, Louis Bell, Frank Dukes, Buddy, Nick Mira, Scott Storch.</h2>
             <p>100 Times Platinum | 20 Billion Streams | Infinite Connection</p>
         </div>
-        <div class = "contentHolder" style = "margin-top: 100px;">
-            <div class = "content" style = "margin-right: 150px; padding: 200px 0px;">
+        <div class = "contentHolder" id = "artistsAndWriters">
+            <img class = "mobile" src = "PICS/Frank Dukes.png">
+            <div class = "content">
                 <h2 id = "artists">Artists and Writers</h2>
                 <p>Our Hollywood roster of artists and writers bring years of experience onto the Billboard charts. Explore the Electric Feel’s family of artists, songwriters, and producers.</p>
                 <button class = "btn2">Learn More</button>
             </div>
-            <img style = "width: 150%; height: 150%;" src = "PICS/Frank Dukes.png">
+            <img class = "desktop" src = "PICS/Frank Dukes.png">
         </div>
-        <div class = "contentHolder">
-            <img style = "width: 40%; height: 40%;" src = "PICS/spider verse.jpg">
-            <div class = "content" style = "margin-left: 150px; padding: 200px 0px">
+        <div class = "contentHolder" id = "media">
+            <img src = "PICS/spider verse.jpg">
+            <div class = "content">
                 <h2 id = "artists">TV, Movies, Commericals Synch</h2>
                 <p>This is a world of entertainment. Whether you enjoy binging your favorite television series, investing in a suspensful thriller, singing along to your favorite soundtrack, or gaming with focus music, explore our catalogue of records perfect for your next project or license your own music.</p>
                 <button class = "btn2">Learn More</button>
@@ -109,6 +111,9 @@
             <a href = "https://www.facebook.com" target="_blank"><p>Facebook</p></a>
         </div>
     </footer>
+    <script>
+        console.log(window.innerWidth);
+    </script>
     
 </body>
 </html>

@@ -22,6 +22,20 @@ a p:hover{
     opacity: 0.5;
 }
 
+#artistsAndWriters{
+    margin-top: 100px;
+}
+
+#artistsAndWriters .content{
+    margin-right: 150px;
+    padding: 200px 0px;
+}
+
+#artistsAndWriters img{
+    width: 150%;
+    height: 150%;
+}
+
 #bio{
     /* background-color: yellow; */
     font-family: 'Inter', sans-serif;
@@ -96,6 +110,10 @@ button:hover{
     display: block;
 }
 
+.desktop{
+    display: block;
+}
+
 #exp{
     font-family: 'Inter', sans-serif;
     font-size: 70px;
@@ -109,6 +127,10 @@ button:hover{
     display: flex;
     justify-content: space-evenly;
     padding: 0px 0px;
+}
+
+.mobile{
+    display: none;
 }
 
 #night{
@@ -162,6 +184,16 @@ li{
 
 main{
     z-index:0;
+}
+
+#media img {
+    width: 40%;
+    height: 40%
+}
+
+#media .content{
+    margin-left: 150px;
+    padding: 200px 0px;
 }
 
 #mentor{
