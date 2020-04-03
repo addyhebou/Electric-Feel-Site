@@ -1,0 +1,14 @@
+header{
+    z-index: 0;
+}
+
+main{
+    z-index: 0;
+}
+
+.teamRow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
